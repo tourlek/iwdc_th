@@ -1,5 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <b-button variant="success">
+      <strong class="text-lowercase primary">BUTTON</strong>
+    </b-button>
   </div>
 </template>

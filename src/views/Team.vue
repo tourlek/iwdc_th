@@ -9,7 +9,7 @@
         img-height="480"
       >
         <b-carousel-slide
-          img-src="https://picsum.photos/1024/480/?image=10"
+          :img-src="require('../assets/images/our team.jpg')"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -278,8 +278,10 @@ export default {};
   z-index: 1;
 }
 .svg-custom{
+  width: 150px;
   position: absolute;
-  bottom: -100px;
+  top: -20px;
+  right: 0;
   z-index: -1;
 }
 ::v-deep {

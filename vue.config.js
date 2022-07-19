@@ -2,5 +2,5 @@ module.exports = {
   devServer: {
     host: "localhost",
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/my-project/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/iwdc_th/" : "/",
 };
